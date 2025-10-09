@@ -27,10 +27,10 @@ author:
   name             : "Sihan Fu"
   pronouns         : # example: "she/her"  
   bio              : "Hello! I am a doctoral student at the Institute of Medical Technology of Peking University Health Science Center, under the supervision of Professor Luxia Zhang."
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "China"
+  employer         : #"Red Brick University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "2511110780@stu.pku.edu.cn" 
 
   # Academic websites
   academia         : # URL
