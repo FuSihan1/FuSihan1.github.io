@@ -23,7 +23,7 @@ repository               : "FuSihan1/FuSihan1.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "/images/touxiang.png"
+  avatar           : "touxiang.png"
   name             : "Sihan Fu"
   pronouns         : # example: "she/her"  
   bio              : "Hello! I am a doctoral student at the Institute of Medical Technology of Peking University Health Science Center, under the supervision of Professor Luxia Zhang."
