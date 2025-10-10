@@ -19,7 +19,8 @@ Reasearch Insterests
 
 Education
 ======
-2025/09 - now, Ph.D., Health Data Science, Peking University, Beijing, China/n
+2025/09 - now, Ph.D., Health Data Science, Peking University, Beijing, China
+
 2021/09 - 2025/06, B.S., Automation, Tongji University, Shanghai, China
 
 Site-wide configuration
