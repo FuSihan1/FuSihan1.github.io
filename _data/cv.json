@@ -26,11 +26,7 @@
       "courses": []
     },
   ],
-  "skills": [
-    {
-       "skills": "C/C++, python, matlab"
-    }
-  ],
+  "skills": "C/C++, python, matlab"
   "languages": [
     {
        "languages": "Chinese, English"
