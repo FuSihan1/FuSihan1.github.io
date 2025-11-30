@@ -2,15 +2,8 @@
   "basics": {
     "name": "Sihan Fu",
     "email": "2511110780@stu.pku.edu.cn",
-    "phone": "",
     "website": "https://fusihan1.github.io",
     "summary": "I am a Ph.D. student in Institute of Medical Technology in Peking University Health Science Center.",
-    "location": {
-      "address": "China",
-      "postalCode": "",
-      "city": "",
-      "region": ""
-    },
   },
   "work": [],
   "education": [
@@ -33,8 +26,12 @@
       "courses": []
     },
   ],
-  "skills": ["C/C++", "python", "matlab"],
-  "languages": ["Chinese/English"],
-  "interests": ["play the piano", "play badminton"],
+  "skills": [
+    {
+      "C/C++", "python", "matlab"
+    }
+  ],
+  "languages": "Chinese/English",
+  "interests": "play the piano, play badminton",
   "references": [],
 }
