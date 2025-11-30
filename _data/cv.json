@@ -28,10 +28,17 @@
   ],
   "skills": [
     {
-      "C/C++", "python", "matlab"
+       "skills": "C/C++, python, matlab"
     }
   ],
-  "languages": "Chinese/English",
-  "interests": "play the piano, play badminton",
-  "references": [],
+  "languages": [
+    {
+       "languages": "Chinese, English"
+    }
+  ],
+  "interests":[
+    {
+       "interests": "play the piano, paly badminton"
+    }
+  ],
 }
