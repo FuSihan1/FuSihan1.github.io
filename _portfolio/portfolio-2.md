@@ -4,12 +4,18 @@ excerpt: "Simulated an urban transportation system based on autonomous taxis, wh
 collection: portfolio
 ---
 
-Oct 2024 – Dec 2024
-Miniature RoboTaxi Project (Simulated DiDi)
-Course Design
-Project Leader
-✓ Project Focus: Simulated an urban transportation system based on autonomous taxis, where five roadside passengers request rides from their origins to destinations via a RoboTaxi dispatch system.
-✓ Responsibilities:
-Server-side: Used Java SpringBoot framework to set up the map and agents, implementing path planning with the A* algorithm.
-Server-Frontend Communication: Established communication via RESTful APIs based on HTTP.
-Frontend Modifications: Employed Vue 3 and JavaScript within the Vue framework, using HTML5 Canvas to render dynamic trajectory visualizations.
+Duration: Oct 2024 – Dec 2024
+Role: Project Leader
+Project Level: Course Design
+
+Project Focus: Simulated an urban transportation system based on autonomous taxis, where five roadside passengers request rides from their origins to destinations via a RoboTaxi dispatch system.
+
+Key Responsibilities & Achievements:
+
+Developed the server-side application using the Java SpringBoot framework to configure the simulation map and agents, implementing core path planning with the A* algorithm.
+
+Designed and established server-frontend communication through RESTful APIs based on the HTTP protocol.
+
+Modified and enhanced the frontend interface by employing the Vue 3 framework with JavaScript, utilizing HTML5 Canvas to render clear, dynamic trajectory visualizations.
+
+Technologies: Java, SpringBoot, Vue 3, JavaScript, RESTful API, A* Algorithm, HTML5 Canvas.
