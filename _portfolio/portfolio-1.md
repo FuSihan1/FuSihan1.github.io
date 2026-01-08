@@ -1,6 +1,6 @@
 ---
-title: "Research Projects"
-excerpt: ""
+title: "Research Projects: Construction and Implementation of a Multi-Robot Cooperative Area Coverage System, National-level Innovation Training Project"
+excerpt: " Investigated multi-robot cooperative coverage of target areas while incorporating obstacle avoidance for static obstacles."
 collection: portfolio
 ---
 
