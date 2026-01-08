@@ -1,6 +1,7 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "robot"
+title: "Research Projects"
+excerpt: "Mar 2023 – Mar 2024  Construction and Implementation of a Multi-Robot Cooperative Area Coverage System    National-level Innovation Training Project
+      Project Leader"
 collection: portfolio
 ---
 
