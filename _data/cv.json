@@ -5,11 +5,7 @@
     "website": "https://fusihan1.github.io",
     "summary": "I am a Ph.D. student in Institute of Medical Technology in Peking University Health Science Center.",
   },
-  "work": [
-    {
-       "programming language": "C/C++, python, matlab, verilog"
-    }
-  ],
+  "work": [],
   "education": [
     {
       "institution": "Peking University",
@@ -30,10 +26,4 @@
       "courses": []
     },
   ],
-  "professional skills": [
-    {
-      "programming language": "C/C++, python, matlab, verilog",
-      "other": []
-    },
-  ]
 }
