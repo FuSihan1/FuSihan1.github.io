@@ -149,3 +149,4 @@ XGBoost 模型的可视化结果包括 ROC 曲线、PR 曲线、混淆矩阵图�
 - **XGBoost 详细 SHAP 图**
 ![XGBoost详细SHAP图](/images/portfolio/picu-prediction/xgboost_shap_detail.png)
 SHAP 详细图展示了每个特征对模型预测结果的影响方向和程度，有助于深入理解模型的决策过程。
+根据结果可以发现，XGBoost在测试集上的性能优于LR，其AUC值略大于LR。根据XGBoost的SHAP值摘要图还可以发现，lab_5257_min是最重要的特征，并且其值越大患者死亡风险越小，在临床上应着重关注这一指标。
