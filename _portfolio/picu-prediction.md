@@ -140,15 +140,12 @@ tech_stack:
 XGBoost 模型的实现同样包括数据加载、预处理、超参数调优、模型训练、评估和可视化等步骤。通过遍历参数网格选择最佳参数，使用最佳模型在测试集上进行评估，并对模型结果进行可视化展示。
 
 # 分析结果 (Results & Analysis)
-逻辑回归模型
-/images/portfolio/picu-prediction/logistic_regression_visualization.png
-
+- **逻辑回归模型**
+![逻辑回归模型可视化结果](/images/portfolio/picu-prediction/logistic_regression_visualization.png)
 逻辑回归模型的可视化结果展示了模型在不同数据集上的性能指标对比、特征重要性、ROC 曲线等信息。从图中可以直观地看到模型在训练集、验证集和测试集上的表现，以及各个特征对模型预测的影响程度。
-XGBoost 模型
-
-image
-XGBoost 模型的可视化结果包括 ROC 曲线、PR 曲线、混淆矩阵、特征重要性等图表。通过这些图表可以评估模型的性能和特征的重要性。
-XGBoost 详细 SHAP 图
-
-image
+- **XGBoost模型**
+![XGBoost模型可视化结果](/images/portfolio/picu-prediction/xgboost_visualization.png)
+XGBoost 模型的可视化结果包括 ROC 曲线、PR 曲线、混淆矩阵图表。通过这些图表可以评估模型的性能。
+- **XGBoost 详细 SHAP 图**
+![XGBoost详细SHAP图](/images/portfolio/picu-prediction/xgboost_shap_detail.png)
 SHAP 详细图展示了每个特征对模型预测结果的影响方向和程度，有助于深入理解模型的决策过程。
