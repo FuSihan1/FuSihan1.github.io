@@ -22,8 +22,8 @@ tech_stack:
 在临床医疗领域，准确预测患者的死亡风险对于制定治疗方案和提高医疗质量具有重要意义。本项目基于临床 PIC 数据，通过数据分析和机器学习模型，旨在构建能够有效预测患者在医院死亡风险的模型，并为临床决策提供支持。
 # 核心实现 (Implementation)
 数据读取和初步分析
-        import pandas as pd
         
+        import pandas as pd
         # 读取数据
         file_path = "E:/博一/python学习洪/data.xlsx"
         data = pd.read_excel(file_path)
@@ -70,8 +70,11 @@ tech_stack:
                 else:
                     print(f"\n{col}: 无有效数据")
                     stats_dict[col] = None
+            
 此部分代码主要完成了数据的读取和初步的分组统计分析，通过按患者是否在医院死亡进行分组，计算了各个生理指标的统计量，为后续的分析和建模提供了基础。
+
 # 逻辑回归模型
+
         from sklearn.linear_model import LogisticRegression
         from sklearn.preprocessing import StandardScaler
         from sklearn.model_selection import GridSearchCV
@@ -106,8 +109,11 @@ tech_stack:
         
         # 保存结果
         model.save_results()
+        
 逻辑回归模型的实现过程包括数据加载、预处理、超参数调优、模型训练、评估和可视化等步骤。通过网格搜索在验证集上选择最佳参数，然后使用最佳参数在训练集上重新训练模型，最后在测试集上评估模型性能。
+
 # XGBoost 模型
+
         import xgboost as xgb
         from sklearn.metrics import accuracy_score, recall_score, precision_score, roc_auc_score, confusion_matrix, roc_curve, precision_recall_curve, auc
         import shap
@@ -130,7 +136,9 @@ tech_stack:
         # 可视化结果
         feature_names = X_train.columns.tolist()
         plot_results(test_results, feature_names, best_model, X_test)
+        
 XGBoost 模型的实现同样包括数据加载、预处理、超参数调优、模型训练、评估和可视化等步骤。通过遍历参数网格选择最佳参数，使用最佳模型在测试集上进行评估，并对模型结果进行可视化展示。
+
 # 分析结果 (Results & Analysis)
 逻辑回归模型
 /images/portfolio/picu-prediction/logistic_regression_visualization.png
